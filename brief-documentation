@@ -1,0 +1,9 @@
+#Technologies used: HTML, CSS, Bootstrap
+
+#Major features: This website was fully created using HTML,CSS and Bootstrap.
+this website consist of four pages named Home,About,Causes,Events
+
+#Challenges faced:
+my original website has many javascript in it so i was not able to perform that.
+I couldn't apply owl carausel in my Home webpage as it uses javascript.
+I couldn't create a pop-up window which opens when you click on Contact in navbar this process again used javascript.
