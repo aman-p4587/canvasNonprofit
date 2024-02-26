@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style-common.css">
+
+  <link rel="stylesheet" href="events.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid navbar navbar-expand-lg m-0 p-0" id="header">
+    <div id="header-logo">
+      <a href="home.html">
+        <img src="https://canvastemplate.com/demos/business/images/logo.png" alt="logo">
+      </a>
+    </div>
+    <div id="nav-slab" class="ms-5 me-lg-auto">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Causes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">SINGLE PAGE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="donate-btn">
+      <a href="#" class="btn bg-dark-subtle ">Donate</a>
+    </div>
+  </div>
+  <div class="container-fluid m-0 p-0">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/slider/1.jpg"
+            class="d-block w-100 object-fit-cover" height="650px" alt="slider1">
+          <div class="carousel-caption slider-img w-50">
+            <h2>Help the Homeless.</h2>
+            <a href="#" class="btn btn-light">Know more</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/slider/2.jpg"
+            class="d-block w-100 object-fit-cover" height="650px" alt="slider2">
+          <div class="carousel-caption slider-img w-50">
+            <h2>Dpnate with Kindness.</h2>
+            <a href="#" class="btn btn-light">Know more</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-3 px-1">
+      <a href="about.html"
+        class="card text-center border-start-0 border-end-0 border-top-0 border-bottom border-bottom shadow py-3 rounded-3 fw-semibold text-uppercase ls-1">
+        <div class="card-body threetags">
+          <i class="bi-text-center"></i>View Our Mission
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 px-1">
+      <a href="causes.html"
+        class="card text-center border-start-0 border-end-0 border-top-0 border-bottom border-bottom shadow py-3 rounded-3 fw-semibold text-uppercase ls-1">
+        <div class="card-body threetags">
+          <i class="bi bi-box-seam"></i>Top Founders
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 px-1">
+      <a href="demo-nonprofit.html"
+        class="card text-center border-start-0 border-end-0 border-top-0 border-bottom border-bottom shadow py-3 rounded-3 fw-semibold text-uppercase ls-1">
+        <div class="card-body threetags">
+          <i class="bi-envelope"></i>Request a Quote
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="mt-3 mb-5"
+    style="background: #FFF url('https://canvastemplate.com/demos/nonprofit/images/others/1.jpg') no-repeat 100% 50% / auto 100%;">
+    <div class="container-my">
+      <div class="row justify-content-center">
+        <div class="col-md-7 text-center">
+          <div class="border-bottom-0 mb-4">
+            <h2 class="mb-4 font-change">Unconditional Help</h2>
+          </div>
+          <div class="mb-4">
+            <img src="https://canvastemplate.com/demos/nonprofit/images/divider-1.svg" alt="svg divider" height="20">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quasi, dolorum blanditiis eius
+            laboriosam, quidem temporibus, dolor quod voluptatum perferendis ullam. Odio sequi at dolore consequatur ad,
+            odit expedita tenetur.</p>
+        </div>
+      </div>
+      <div class="row mt-5 mb-0">
+        <div class="col-md-3">
+          <div class="card flex-column ps-0 border-0">
+            <div class="position-relative p-3">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/icons/donate.svg" alt="Featured Icon"
+                width="60" class="mb-3">
+            </div>
+            <div class="px-0">
+              <h3 class=""><a href="#" class="text-dark">Give Donation.</a></h3>
+              <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, dolore, voluptates!</p>
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-dark" style="font-size:30px">Donate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="flex-column ps-0">
+            <div class="position-relative p-3">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/icons/volunteer.svg" alt="Featured Icon"
+                width="60" class="mb-3">
+            </div>
+            <div class=" px-0">
+              <h3 class=""><a href="#" class="text-dark">Become a Volunteer.</a></h3>
+              <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, provident.</p>
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-dark" style="font-size:30px">Join now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="flex-column ps-0">
+            <div class="position-relative p-3">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/icons/help-child.svg" alt="Featured Icon"
+                width="60" class="mb-3">
+            </div>
+            <div class="fbox-content px-0">
+              <h3 class="text-transform-none ls-0"><a href="#" class="text-dark">Help the Children.</a></h3>
+              <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ipsa!</p>
+              <button type="button" class="btn btn-light px-5 py-2 btn-outline-dark" style="font-size:30px">Help now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pt-5">
+    <div class="w-100 position-relative">
+      <div class="d-flex align-items-center rounded mx-auto shadow-sm w-100" style="height: 500px;">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/others/3.jpg" class="img-fluid">
+      </div>
+      <div class="card bg-white border-0 text-center py-sm-4 px-sm-5 p-2 shadow-sm"
+        style="position: absolute; top: 50%; right: 80px; transform: translateY(-50%);">
+        <div class="card-body">
+          <div class="color h1 mb-3"><i class="bi-heart-fill"></i></div>
+          <small class="text-uppercase fw-normal ls-2 text-muted mb-3 d-block">Our Top Donor</small>
+          <h3 class="display-3 fw-bold mb-3 font-secondary">$2.4M</h3>
+          <p class="text-uppercase fw-medium text-muted">:Raised</p>
+          <a href="causes.html" class="button-svg">View More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section bg-transparent mt-0 mb-4">
+    <div class="container">
+      <div class="row justify-content-center" style="margin-top: 100px">
+        <div class="col-md-7 text-center">
+          <div class="heading-block border-bottom-0 mb-4">
+            <h2 class="mb-4 text-transform-none font-change">Our Charity Causes</h2>
+          </div>
+          <div class="svg-line mb-4">
+            <img src="https://canvastemplate.com/demos/nonprofit/images/divider-1.svg" alt="svg divider" height="20">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quasi, dolorum blanditiis eius
+            laboriosam, quidem temporibus, dolor quod voluptatum perferendis ullam. Odio sequi at dolore consequatur ad,
+            odit expedita tenetur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-my row p-5">
+    <div class="col-lg-4 col-md-6 py-3">
+      <div class="card rounded-2">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/cause/grid/1.jpg" alt="" class="card-img-top">
+        <div class="px-4 py-3 card-title" style="background-color: #dee4e4;">
+          <small class="d-block">HOMELESS</small>
+          <h3 class="mb-3">Clean Water for All</h3>
+          <p style="font-size:15px;">$119,700 Donated of $210,000</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 57%"></div>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut atque quidem consequuntur officiis vitae illo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 py-3">
+      <div class="card rounded-2">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/cause/grid/2.jpg" alt="" class="card-img-top">
+        <div class="px-4 py-3 card-title" style="background-color: #dee4e4;">
+          <small class="d-block">EDUCATION</small>
+          <h3 class="mb-3">Education for All</h3>
+          <p style="font-size:15px;">$76,500 Donated of $170,000</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 57%"></div>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut atque quidem consequuntur officiis vitae illo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 py-3">
+      <div class="card rounded-2">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/cause/grid/3.jpg" alt="" class="card-img-top">
+        <div class="px-4 py-3 card-title" style="background-color: #dee4e4;">
+          <small class="d-block">HOMELESS</small>
+          <h3 class="mb-3">Food for Hungry</h3>
+          <p style="font-size:15px;">$76,500 Donated of $170,000</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 57%"></div>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut atque quidem consequuntur officiis vitae illo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 py-3">
+      <div class="card rounded-2">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/cause/grid/4.jpg" alt="" class="card-img-top">
+        <div class="px-4 py-3 card-title" style="background-color: #dee4e4;">
+          <small class="d-block">MEDICINE</small>
+          <h3 class="mb-3">Help from Injuries</h3>
+          <p style="font-size:15px;">$76,500 Donated of $170,000</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 57%"></div>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut atque quidem consequuntur officiis vitae illo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 py-3">
+      <div class="card rounded-2">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/cause/grid/5.jpg" alt="" class="card-img-top">
+        <div class="px-4 py-3 card-title" style="background-color: #dee4e4;">
+          <small class="d-block">EDUCATION</small>
+          <h3 class="mb-3">Donation for Children</h3>
+          <p style="font-size:15px;">$76,500 Donated of $170,000</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 57%"></div>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut atque quidem consequuntur officiis vitae illo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 py-3">
+      <div class="card rounded-2">
+        <img src="https://canvastemplate.com/demos/nonprofit/images/cause/grid/6.jpg" alt="" class="card-img-top">
+        <div class="px-4 py-3 card-title" style="background-color: #dee4e4;">
+          <small class="d-block">CLOTHES</small>
+          <h3 class="mb-3">Clothes Donate for All</h3>
+          <p style="font-size:15px;">$31,500 Donated of $110,000</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut atque quidem consequuntur officiis vitae illo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid my-5">
+    <div id="map-back" class="d-flex flex-column align-items-center py-5">
+      <div class="mx-auto text-center">
+        <h3>Our Mission is to help people by distributing Money and Service Globally.</h3>
+      </div>
+      <div class="row align-items-stretch m-0 w-100 py-5">
+        <div class="col-lg-3 col-sm-6 text-center mt-5">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/icons/breakfast.svg" alt="" width="70" class="mb-4">
+          <div class="text-secondary font-change">
+            <h2 class="font-change">11,265+</h2>
+          </div>
+          <h5 class="mb-2">Meals Surved</h5>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center mt-5">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/icons/volunteers.svg" alt="" width="70" class="mb-4">
+          <div class="text-secondary font-change">
+            <h2 class="font-change">11,265+</h2>
+          </div>
+          <h5 class="mb-2">Meals Surved</h5>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center mt-5">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/icons/educated.svg" alt="" width="70" class="mb-4">
+          <div class="text-secondary font-change">
+            <h2 class="font-change">11,265+</h2>
+          </div>
+          <h5 class="mb-2">Meals Surved</h5>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center mt-5">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/icons/shelter.svg" alt="" width="70" class="mb-4">
+          <div class="text-secondary font-change">
+            <h2 class="font-change">11,265+</h2>
+          </div>
+          <h5 class="mb-2">Meals Surved</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-my mb-5">
+    <div class="row mt-5">
+      <div class="col-8">
+        <h3 class="mb-2">Our Mission & Goals</h3>
+        <div><img src="https://canvastemplate.com/demos/nonprofit/images/divider-1.svg" alt="svg divider" height="10"></div>
+        <p class="mb-5">
+          lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam deleniti veritatis nostrum, temporibus vero maxime quisquam quarat dolorremque fugit nesciunt.
+        </p>
+        <div class="row">
+          <div class="col-6 p-2">
+            <div class="d-flex box p-2 shadow rounded">
+              <div class="media mt-2 me-4">
+                <img src="https://canvastemplate.com/demos/nonprofit/images/icons/home.svg" alt="" width="50">
+              </div>
+              <div class="content">
+                <h5 class="mt-3 mb-3 px-3">Homeless Charities.</h5>
+                <p class="px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-6 p-2">
+            <div class="d-flex box p-2 shadow rounded">
+              <div class="media mt-2 me-4">
+                <img src="https://canvastemplate.com/demos/nonprofit/images/icons/health.svg" alt="" width="50">
+              </div>
+              <div class="content">
+                <h5 class="mt-3 mb-3 px-3">Homeless Charities.</h5>
+                <p class="px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-6 p-2">
+            <div class="d-flex box p-2 shadow rounded">
+              <div class="media mt-2 me-4">
+                <img src="https://canvastemplate.com/demos/nonprofit/images/icons/education.svg" alt="" width="50">
+              </div>
+              <div class="content">
+                <h5 class="mt-3 mb-3 px-3">Homeless Charities.</h5>
+                <p class="px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-6 p-2">
+            <div class="d-flex box p-2 shadow rounded">
+              <div class="media mt-2 me-4">
+                <img src="https://canvastemplate.com/demos/nonprofit/images/icons/animal.svg" alt="" width="50">
+              </div>
+              <div class="content">
+                <h5 class="mt-3 mb-3 px-3">Homeless Charities.</h5>
+                <p class="px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-6 p-2">
+            <div class="d-flex box p-2 shadow rounded">
+              <div class="media mt-2 me-4">
+                <img src="https://canvastemplate.com/demos/nonprofit/images/icons/environmental.svg" alt="" width="50">
+              </div>
+              <div class="content">
+                <h5 class="mt-3 mb-3 px-3">Homeless Charities.</h5>
+                <p class="px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-6 p-2">
+            <div class="d-flex box p-2 shadow rounded">
+              <div class="media mt-2 me-4">
+                <img src="https://canvastemplate.com/demos/nonprofit/images/icons/food.svg" alt="" width="50">
+              </div>
+              <div class="content">
+                <h5 class="mt-3 mb-3 px-3">Homeless Charities.</h5>
+                <p class="px-3 py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <h3 class="mb-2">Latest Videos</h3>
+        <div class="svg-line mb-2">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/divider-1.svg" alt="svg divider" height="10">
+        </div>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit excepturipsa!</p>
+        <iframe height="300" width="100%" src="https://www.youtube.com/embed/VqmFKnHG5q8" title="Inside Rihanna&#39;s Trip to Malawi for Education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="row">
+          <div class="col-6">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/hc7iuc5KZ8Y" title="SOS Africa Charity Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col-6">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/VqmFKnHG5q8" title="Inside Rihanna&#39;s Trip to Malawi for Education" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="about-page3">
+    <div class="container-my">
+      <div class="row justify-content-center mb-5">
+        <div class="col-7 text-center">
+          <h2 class="font-change mb-4">Happy Volunteers</h2>
+          <div class="svg-line mb-4">
+            <img src="https://canvastemplate.com/demos/nonprofit/images/divider-1.svg" alt="svg divider" height="20">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quasi, dolorum blanditiis eius
+            laboriosam, quidem temporibus, dolor quod voluptatum perferendis ullam. Odio sequi at dolore consequatur ad,
+            odit expedita tenetur.</p>
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-lg-2 col-md-4 col-6 py-2">
+          <div>
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/1.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Penny Tools</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/6.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Piff Jenkins</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mt-4 py-2">
+          <div>
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/2.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Rodney Artich</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/7.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Weir Doe</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 py-2">
+          <div>
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/3.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Jackson Pot</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/8.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Phillip Anthropy</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mt-5 py-2">
+          <div>
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/4.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Eric Widget</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/9.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Giles Posture</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mt-1 py-2">
+          <div>
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/5.jpg" alt="">
+            </div>
+            <div class="team-desc text-center">
+              <h5>Gunther Beard</h5>
+              <small>Volunteers</small>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="team-image">
+              <img src="https://canvastemplate.com/demos/nonprofit/images/volunteers/10.jpg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center " style="background-color:#c6c09c;padding:35px 0">
+    <h2 class="mt-2">
+      Click here to Subscribe our Newsletter
+      <i class="bi bi-arrow-down"></i>
+    </h2>
+  </div>
+  <div class="container-fluid p-0 d-flex border mb-5" style="background-color: rgba(198,192,156, 0.15);;">
+    <div class="col-lg-4  d-flex align-items-center text-center justify-content-center"
+      style="background: url('https://canvastemplate.com/demos/nonprofit/images/others/event.jpg') center center repeat; background-size: cover; min-height: 600px;">
+      <h2 class="px-4 mb-4 d-block" id="heading">Events Overview</h2>
+    </div>
+    <div class="col-lg-8 ">
+      <div id="calender">
+        <div class="calender-month d-flex justify-content-between">
+          <span id="month-year">February 2024</span>
+          <div>
+            <span class="event-icon"><i class="bi bi-chevron-left"></i></i></span>
+            <span class="event-icon me-3"><i class="bi bi-chevron-right"></i></span>
+            <span class="event-icon" title="Got to current date"><i class="bi-arrow-clockwise text-dark"></i></span>
+          </div>
+        </div>
+        <div class="shadow ">
+          <div class="calender-header d-flex justify-content-around p-2 bg-dark bg-gradient mt-3 rounded">
+            <div class="text-light">MONDAY</div>
+            <div class="text-light">TUESDAY</div>
+            <div class="text-light">WEDNESDAY</div>
+            <div class="text-light">THURSDAY</div>
+            <div class="text-light">FRIDAY</div>
+            <div class="text-light">SATURDAY</div>
+            <div class="text-light">SUNDAY</div>
+          </div>
+          <div class="calender-body p-3"
+            style="background-image: url(https://canvastemplate.com/demos/nonprofit/images/world-map.png); background-size: cover;">
+            <div class="row">
+              <div class="fc-div text-body-tertiary border border-top-0 border-start-0"><span>27</span></div>
+              <div class="fc-div text-body-tertiary border border-top-0"><span>28</span></div>
+              <div class="fc-div text-body-tertiary border border-top-0"><span>29</span></div>
+              <div class="fc-div border border-top-0"><span>1</span></div>
+              <div class="fc-div border border-top-0"><span>2</span></div>
+              <div class="fc-div border border-top-0"><span>3</span></div>
+              <div class="fc-div border border-top-0 border-end-0"><span>4</span></div>
+            </div>
+            <div class="row">
+              <div class="fc-div border border-start-0"><span>5</span></div>
+              <div class="fc-div"><span>6</span></div>
+              <div class="fc-div"><span>7</span></div>
+              <div class="fc-div"><span>8</span></div>
+              <div class="fc-div"><span>9</span></div>
+              <div class="fc-div"><span>10</span></div>
+              <div class="fc-div border border-end-0"><span>11</span></div>
+            </div>
+            <div class="row">
+              <div class="fc-div border border-start-0"><span>12</span></div>
+              <div class="fc-div"><span>13</span></div>
+              <div class="fc-div"><span>14</span></div>
+              <div class="fc-div"><span>15</span></div>
+              <div class="fc-div"><span>16</span></div>
+              <div class="fc-div"><span>17</span></div>
+              <div class="fc-div border border-end-0"><span>18</span></div>
+            </div>
+            <div class="row">
+              <div class="fc-div border border-start-0"><span>18</span></div>
+              <div class="fc-div"><span>19</span></div>
+              <div class="fc-div"><span>20</span></div>
+              <div class="fc-div"><span>21</span></div>
+              <div class="fc-div"><span>22</span></div>
+              <div class="fc-div"><span>23</span></div>
+              <div class="fc-div border border-end-0"><span>24</span></div>
+            </div>
+            <div class="row">
+              <div class="fc-div border-start-0 border-bottom-0"><span>25</span></div>
+              <div class="fc-div border border-bottom-0"><span>26</span></div>
+              <div class="fc-div border border-bottom-0"><span>27</span></div>
+              <div class="fc-div border border-bottom-0"><span>28</span></div>
+              <div class="fc-div border border-bottom-0"><span>29</span></div>
+              <div class="fc-div text-body-tertiary border-bottom-0"><span>1</span></div>
+              <div class="fc-div text-body-tertiary border-end-0 border-bottom-0"><span>2</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-my" id="about-page4">
+    <div class="row justify-content-center">
+      <div class="col-md-7 text-center">
+        <h2 class="mb-4 font-change">Who Work With Us</h2>
+        <div class="svg-line mb-4">
+          <img src="https://canvastemplate.com/demos/nonprofit/images/divider-1.svg" alt="svg divider" height="15">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quasi, dolorum blanditiis eius laboriosam,
+          quidem temporibus, dolor quod voluptatum perferendis ullam. Odio sequi at dolore consequatur ad, odit expedita
+          tenetur.</p>
+      </div>
+      <div class="col-md-11 my-5">
+        <ul class="row row-cols-2 row-cols-sm-3 row-cols-md-5 mb-0" style="padding: 0px;">
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/1.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/2.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/3.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/4.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/5.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/6.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/7.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/8.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/9.png" alt="">
+          </li>
+          <li class="item">
+            <img src="https://canvastemplate.com/images/clients/10.png" alt="">
+          </li>
+        </ul>
+      </div>
+      <h5 class="fw-normal text-black-50 mb-5 text-center">
+        If you want to work with us for nonprofit?
+        <a href="#" style="color:#c6c09c;">Send your Details</a>
+      </h5>
+    </div>
+  </div>
+  <div id="footer-content">
+    <div class="container-fluid"
+      style="background-image: url('https://canvastemplate.com/demos/nonprofit/images/others/footer.jpg'); background-size: cover; padding:200px 0">
+      <div class="common-content mx-auto text-center" style="max-width:700px;">
+        <h1 class="fw-bold text-light" id="foot-heading">
+          <i class="bi-heart-fill d-block mb-3"></i>
+          Help the Homeless & Hungry People.
+        </h1>
+        <a href="#" class="btn btn-rounded btn-light text-dark mt-5 py-3 px-5 fw-semibold" id="foot-donate-btn">Donate
+          Now</a>
+      </div>
+    </div>
+    <div id="copyrights" style="background-color: #c6c09c;">
+      <div class="foot-copy">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-6 col-sm-12">
+            <p>Copyrights &copy; 2023 All Rights Reserved by Canvas Inc.</p>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" class="text-secondary">Terms of Use</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-secondary">Privacy
+                    Policy</a></li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-md-6 col-sm-12 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="#" class="text-secondary">About</a></li>
+                <li class="breadcrumb-item active"><a href="#" class="text-secondary">Features</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-secondary">FAQs</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-secondary">Contact</a></li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

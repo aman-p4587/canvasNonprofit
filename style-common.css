@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+#header-logo>a{
+    margin:0rem 7.1rem;
+}
+#header-logo{
+    background-color: #c6c09c;
+}
+#nav-slab>#navbarSupportedContent>ul>li{
+    padding:0rem 0.5rem;
+    font-size:1.4rem;
+}
+
+#donate-btn>a{
+    font-size:1.4rem;
+    font-weight: 500;
+}
+#donate-btn>a:hover{
+    color:white;
+    background-color: black !important;
+}
+#foot-heading,.font-change{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 500;
+    font-size: 3rem;
+    color:black;
+}
+a#foot-donate-btn{
+    font-size:1.5rem;
+    
+}
+#copyrights{
+    padding: 2rem 0;
+}
+#copyrights>div.foot-copy{
+    width:85%;
+    margin:0px auto;
+    font-size: 1.3rem;
+}
+#copyrights a{
+    text-decoration: none !important;
+}
+@media (min-width:992px){
+    div#nav-slab{
+        order:1;
+    }
+    div#donate-btn{
+        order:2;
+        margin-right:8rem;
+    }
+    /* causes-css */
+}
+#causes-content>.first-slab{
+    background: linear-gradient(to bottom, rgba(6, 54, 57,.9), rgba(6, 54, 57,.9));
+}
+#causes-content>div>h1{
+    font-size: 4rem;
+}
+#causes-content>div>h2{
+    font-size: 1.6rem;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.white-slab{
+    height: 150px;
+}
+    /* event-css */
+#calender{
+    padding:5rem;
+}
+.fc-div{
+    height: 150px; width: 150px;
+    border: 1px solid #ddd;
+}
+#heading{
+    font-size: 5rem;
+    color:white;
+}
+.event-icon{
+    background-color: #c6c09c;
+    border-radius: 5px;
+    padding:0.5rem;
+}
+.fc-div>span{
+    font-size:1.5rem;
+}
+#month-year{
+    font-size: 1.3rem;
+}
+/* about-csa */
+.nav-item>a.nav-link:hover{
+    background-color:#3e8e41;
+    color:white !important;
+}
+#about-page1{
+    background-color: #063639;
+}
+.container-my{
+    width:1700px;
+    margin:0px auto;
+}
+#about-page3{
+    background: url('https://canvastemplate.com/demos/nonprofit/images/others/section-bg.jpg') no-repeat center center / cover;
+    padding: 80px 0;
+}
+.team-image img{
+    display:block;
+    width:100%;
+    border-radius:6px;
+}
+ul>li{
+    list-style: none;
+}
+/* Home css*/
+div>.slider-img{
+    text-align: left;
+}
+div>.slider-img>h2{
+    font-size: 3rem;
+}
+.threetags{
+    font-size: 1.2rem;
+}
+.threetags>i{
+    padding:0.3rem;
+}
+#map-back{
+    background: url('https://canvastemplate.com/demos/nonprofit/images/world-map.png') no-repeat center center/ contain;
+}
+
